@@ -22,7 +22,7 @@ const MuseumChatbot = () => {
     } else if (input.trim()) {
       setMessages([...messages, { text: input, isBot: false }]);
       setInput('');
-      // Simulate bot response (replace with actual chatbot logic)
+      // Simulate bot response
       setTimeout(() => {
         const response = language === 'hindi' 
           ? "आपके संदेश के लिए धन्यवाद। आप कितने टिकट खरीदना चाहेंगे?"
@@ -45,7 +45,7 @@ const MuseumChatbot = () => {
     <div className="flex flex-col h-screen bg-gradient-to-br from-blue-50 to-indigo-100">
       <nav className="bg-indigo-600 p-4 text-white shadow-lg">
         <div className="container mx-auto flex items-center justify-between">
-          <h1 className="text-xl sm:text-2xl font-bold font-serif">Museum ticket service</h1>
+          <h1 className="text-xl sm:text-2xl font-bold font-serif">Museum Mate: Your Virtual Museum Guide</h1>
           <div className="flex items-center space-x-2 sm:space-x-4">
             <MessageSquare className="h-5 w-5 sm:h-6 sm:w-6 hover:text-indigo-200 transition-colors duration-300" />
             <Menu className="h-5 w-5 sm:h-6 sm:w-6 hover:text-indigo-200 transition-colors duration-300" />
