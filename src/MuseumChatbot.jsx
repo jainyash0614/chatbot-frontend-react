@@ -94,7 +94,7 @@ const MuseumChatbot = () => {
               type="text"
               value={input}
               onChange={(e) => setInput(e.target.value)}
-              placeholder={language === 'hindi' ? "यहां अपना संदेश लिखें..." : "Type your message here..."}
+              placeholder={language === 'hindi' ? "यहां अपना संदेश लिखें..." : "Start your conversation by typing hi..."}
               className="flex-grow p-3 sm:p-4 bg-transparent focus:outline-none text-sm sm:text-base"
               onKeyPress={(e) => e.key === 'Enter' && handleSend()}
             />
