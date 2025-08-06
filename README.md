@@ -1,8 +1,59 @@
-# React + Vite
+# Museum Mate: Virtual Museum Guide
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Museum Mate is a virtual museum guide chatbot built with React and Vite. It assists users in purchasing tickets and answering queries about the museum, supporting both English and Hindi languages.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Conversational Chatbot:** Friendly, interactive chatbot interface for museum visitors.
+- **Multilingual Support:** Users can interact in English or Hindi.
+- **Ticket Assistance:** Guides users through the process of purchasing museum tickets.
+- **Modern UI:** Responsive and visually appealing design using Tailwind CSS.
+
+## Getting Started
+
+### Prerequisites
+- Node.js (v16 or above recommended)
+- npm (v8 or above recommended)
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone <your-repo-url>
+   cd "sih frontend"
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+### Running the App
+
+To start the development server:
+```bash
+npm run dev
+```
+The app will be available at `http://localhost:5173` by default.
+
+### Building for Production
+```bash
+npm run build
+```
+
+### Preview Production Build
+```bash
+npm run preview
+```
+
+## Project Structure
+- `src/MuseumChatbot.jsx`: Main chatbot component.
+- `src/App.jsx`: App entry point.
+- `src/assets/`: Static assets.
+- `tailwind.config.js`, `postcss.config.js`: Styling configuration.
+
+## Customization
+- Update chatbot logic in `MuseumChatbot.jsx` to add more features or support additional languages.
+- Modify styles using Tailwind CSS classes.
+
+## License
+&copy; 2024 Museum Explorer. All rights reserved.
